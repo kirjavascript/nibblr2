@@ -5,7 +5,8 @@ version 4: SQL / events
 fork node-irc  / https://github.com/Throne3d/node-irc
 print streams | built in pipe | IRC.runCommand()
 unix style params
-PYTHON=$(which python2)
+enable DEBUG
+remove socket
 
 // reloadable config
 
@@ -19,7 +20,9 @@ use a whole vm for events?
 limiting: print queue / clear queue
 timeout abstraction for responding cutely to messages
 SQL scoped to command, not server
-poker2
+poker2: coming soon(tm) | reset wen
+load commands from events...
+reimplement commands in terms of events
 
 ## = ignore everything
 make events more powerful, restrict how they're created -> current event API is bad
